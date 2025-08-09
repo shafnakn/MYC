@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reverse Calendar</title>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Halloween Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <audio id="bgMusic" src="abcd.mp3" loop></audio>
+
+  <div class="container">
+    <h1><i class="fa-solid fa-hourglass-half"></i> CALENDAR OF REGRETS</h1>
+   
+    <div id="calendar"></div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup hidden">
+      <img id="popupImage" src="" alt="Popup Image">
+      <p id="message"></p>
+      <button onclick="closePopup()">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
